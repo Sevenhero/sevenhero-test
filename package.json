@@ -4,6 +4,8 @@
   "description": "Share interfaces between Services",
   "main": "index.js",
   "scripts": {
+    "start": "node ./dist/src/hello.world.js",
+    "build": "tsc",
     "test": "npm run test"
   },
   "repository": {
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Sevenhero/sevenhero-test/issues"
   },
-  "homepage": "https://github.com/Sevenhero/sevenhero-test#readme"
+  "homepage": "https://github.com/Sevenhero/sevenhero-test#readme",
+  "dependencies": {
+    "typescript": "^5.1.6"
+  }
 }
