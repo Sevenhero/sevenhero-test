@@ -1,6 +1,6 @@
 {
   "name": "sevenhero-test",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "Share interfaces between Services",
   "main": "./dist/src/index.js",
   "types": "./dist/src/index.d.ts",
@@ -18,7 +18,7 @@
     "url": "https://github.com/Sevenhero/sevenhero-test/issues"
   },
   "homepage": "https://github.com/Sevenhero/sevenhero-test#readme",
-  "dependencies": {
+  "devDependencies": {
     "typescript": "^5.1.6"
   }
 }
