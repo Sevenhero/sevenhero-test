@@ -1,9 +1,13 @@
 {
   "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "classes/*": ["classes/*"]  // Map the import path to the folder without including 'dist'
+    },
     "target": "es5",
     "module": "commonjs",
     "declaration": true,
     "outDir": "./dist",
-    "strict": true
+    "strict": true,
   }
 }
