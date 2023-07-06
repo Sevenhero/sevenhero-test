@@ -1,1 +1,2 @@
-export * from "./myClasses";
+import Testikus from "./myClasses";
+export { Testikus };
